@@ -1,5 +1,5 @@
 let word = 'dress';
-if (word = 'hidden') {
+if (word == 'hidden') {
     word = 'visible';
 } else {
     word = 'hidden';
@@ -8,7 +8,7 @@ if (word = 'hidden') {
 alert(45 % 45);
 
 let number = 3;
-if (number = 0) {
+if (number == 0) {
     number = 1;
 }
 if (number < 0) {
@@ -19,8 +19,7 @@ if (number > 0) {
 }
 
 
-let number1;       
-number1 = prompt('Введите число:');
+let number1= prompt('Введите число:');;       
 Number(number1);
 + number1;
 let numberresault = number1 < 5 ? 0 : 1;
