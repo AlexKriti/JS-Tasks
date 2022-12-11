@@ -114,9 +114,9 @@ function filterFor(arr, a){
             array.push(arr[i]);
         }
     }
-    console.log(array);
+    return array;
 }
-filterFor(arr, 4);
+console.log(filterFor(arr, 4));
 
 
 
@@ -129,11 +129,14 @@ filterFor(arr, 4);
         { name: 'Vovan', age: 4 },
         { name: 'Matvey', age: 16 },
       ];    
-          let names2 =[]
-          users.forEach(function(index){
-              names2.push(index);
-          })
-          console.log(names2);
+          
+          copyArr = function(arr){
+            let names2 =[]
+            arr.forEach(function(index){
+                names2.push(index)}
+            )
+            console.log(names2);}
+            copyArr(users)
 
 
 
