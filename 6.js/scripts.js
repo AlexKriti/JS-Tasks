@@ -23,7 +23,7 @@ console.log(ucFirst(string));
 let checkSpam = function (str) {
     let strin = str.toLowerCase();
     let result;
-    if (strin.includes('xxx') == true || (strin.includes('badword') == true)) {
+    if (strin.includes('XXX'.toLowerCase) || (strin.includes('badWord'.toLowerCase))) {
         result = 'true';
     } else {
         result = 'false'
@@ -96,27 +96,17 @@ let stations = [
     'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'
 
 ];
+let gettingStation = function(array){
+    for(let i=0; i<array.length;i++){
+    let abr = array[i].slice(0, 3);
+    let x = array[i].indexOf(';');
+    let name = array[i].substring(x + 1, array[i].length );
+    console.log(abr + ': ' + name);
+}
+}
+gettingStation(stations)
 
-let abr1 = stations[0].slice(0, 3);
-let abr2 = stations[1].slice(0, 3);
-let abr3 = stations[2].slice(0, 3);
-let abr4 = stations[3].slice(0, 3);
-let abr5 = stations[4].slice(0, 3);
-let i1 = stations[0].indexOf(';');
-let i2 = stations[1].indexOf(';');
-let i3 = stations[2].indexOf(';');
-let i4 = stations[3].indexOf(';');
-let i5 = stations[4].indexOf(';');
-let name1 = stations[0].substring(i1 + 1, stations[0].length - 1);
-let name2 = stations[1].substring(i2 + 1, stations[1].length - 1);
-let name3 = stations[2].substring(i3 + 1, stations[2].length - 1);
-let name4 = stations[3].substring(i4 + 1, stations[3].length - 1);
-let name5 = stations[4].substring(i5 + 1, stations[4].length - 1);
-console.log(abr1 + ': ' + name1);
-console.log(abr2 + ': ' + name2);
-console.log(abr3 + ': ' + name3);
-console.log(abr4 + ': ' + name4);
-console.log(abr5 + ': ' + name5);
+
 
 
 
@@ -254,7 +244,7 @@ console.log(filterFor(arr, 5))
 //которой a и b - это элементы массива. В данной задаче элементы массива, то есть параметры a и b, сами являются массивами и обладают всеми свойствами массивов.
 
 let combineArray = [ [14, 45], [1], ['a', 'c', 'd'] ];
-let newCombineArray = combineArray.sort();
+let newCombineArray = combineArray.sort((a,b) => a.length - b.length);
 console.log(newCombineArray);
 
 
@@ -283,9 +273,9 @@ console.log(newCombineArray);
 
 
 //В задании необходимо использовать методы массивов: map, filter, reduce
-let Array1 = [7 , 3, 2, 4, 1, 15, 8, 1, 9, 2];
-let Array2 = [1, 16, 12, 4, 5, 1, 3, 11, 7, 2];
-let ageOfArray = Array1.map(function(item){
+let array1 = [7 , 3, 2, 4, 1, 15, 8, 1, 9, 2];
+let array2 = [1, 16, 12, 4, 5, 1, 3, 11, 7, 2];
+let ageOfArray = array1.map(function(item){
     if(item <= 2){
         return item * 10 ;
     } else {
