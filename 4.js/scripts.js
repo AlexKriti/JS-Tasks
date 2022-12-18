@@ -55,7 +55,8 @@ while (i < 3) {
     
     //Каждое значение обозначает админ (true) или пользователь (false).
     
-    //Из этого массива с помощью цикла сформировать массив объектов - roles, такой же длины, как и заданный массив.  У каждого объекта должно быть одно поле, role, которое равно admin, если значение в заданном массиве - true, и user, если значение в заданном массиве - false.
+    //Из этого массива с помощью цикла сформировать массив объектов - roles, такой же длины, как и заданный массив.  У каждого объекта должно быть одно поле,
+    // role, которое равно admin, если значение в заданном массиве - true, и user, если значение в заданном массиве - false.
     
     //Т.е. из
     
@@ -64,18 +65,29 @@ while (i < 3) {
     //должно получиться
     
     //[{ role: 'admin' }, { role: 'user' }, { role: 'user' } ]
+    //ПОДСКАЗКИ:
+
+//1) создайте пустой массив newRoles.
+
+//2) обойдите исходный массив с помощью цикла и, используя тернарный оператор, определите значение роли (admin или user)
+// для каждого элемента массива. Определив это значение (его лучше записывать в переменную), сразу же пушьте в новый массив нужный объект.
 
 
     const roles = [true, false, false, true, false];
     let newRoles = [];
-    for(let item of roles){
-        if( item == true){
-            newRoles.push({role : 'admin'});
+    let pushFunction = function(array1, array2){
+        let x = {role : 'admin'};
+        let y = {role : 'user'};
+        for(let i = 0; i < array1.length; i++){
+        if( array1[i] == true){
+            array2.push(x);
         } else {
-            newRoles.push({role : 'user'})
-        }
+            array2.push(y);
+        };
     }
-    console.log(newRoles);
+    return array2;}
+    console.log(pushFunction(roles, newRoles))
+    
 
 
 
@@ -91,17 +103,17 @@ while (i < 3) {
 const nums = [5, 4, 3, -3, -10, -1, 8, -20, 0]
 
 const numbers = [443, -39, 0, -105, -21, 38, -20, 3, 90]
-function findPositiveNumbers(){
-    let array = [];
-    for(let i  = 0; i<numbers.length; i++){
-        if(numbers[i]>0){
-            array.push(numbers[i]);
+function findPositiveNumbers(array){
+    let newArray = [];
+    for(let i  = 0; i<array.length; i++){
+        if(array[i]>0){
+            newArray.push(array[i]);
         }
     }
-    console.log(array)
+    return newArray;
 
 }
-findPositiveNumbers()
+console.log(findPositiveNumbers(nums));
 
 
 //Задание 5 Напишите функцию, которая принимает два параметра: значение и количество элементов. 
@@ -114,9 +126,9 @@ function meanAndNumberOfElements(element, mainNumber){
     for(let i = 0; mainNumber - i !== 0; i++){
         someArray.push(element);
     }
-    console.log(someArray);
+    return someArray;
 }
-meanAndNumberOfElements('a', 3);
+console.log(meanAndNumberOfElements('a', 3));
 
 
 
@@ -140,9 +152,9 @@ meanAndNumberOfElements('a', 3);
                 newArray.push(arr[i]);
             }
         }
-        console.log(newArray);
+        return newArray;
     }
-    filterFor(array1, 5);
+    console.log(filterFor(array1, 5));
 
 
 
