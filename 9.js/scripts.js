@@ -68,18 +68,16 @@ secondForm.addEventListener('submit', (event) => {
     let firstInput = secondForm.querySelectorAll('input')[1];
     let selectA = secondForm.querySelector('select');
     if(selectA.value == '+'){
-        let a = Number(zeroInput.value)+Number(firstInput.value);
-        div.innerText = a;
+        div.innerText = Number(zeroInput.value)+Number(firstInput.value);
     } else if(selectA.value == '-'){
-        let a = Number(zeroInput.value) - Number(firstInput.value);
-        div.innerText = a;
+        div.innerText = Number(zeroInput.value) - Number(firstInput.value);
     } else if(selectA.value == '*'){
-        let a = Number(zeroInput.value)*Number(firstInput.value);
-        div.innerText = a;
+        div.innerText = Number(zeroInput.value)*Number(firstInput.value);
     } else if(selectA.value == '/'){
-        let a = Number(zeroInput.value) / Number(firstInput.value);
-        div.innerText = a;
+        div.innerText = Number(zeroInput.value) / Number(firstInput.value);
     }
+    secondForm.querySelectorAll('input')[0].value = '';
+    secondForm.querySelectorAll('input')[1].value = '';
 })
 
 
