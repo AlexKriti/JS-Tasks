@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.buttons button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px ;
+    transition: 0.3s;
+}
+
+nav.buttons button:hover{
+    background-color: #ddd;
+}
+
+nav.buttons button.active{
+    background-color: #ccc;
+}
+
+div{
+    display: none;
+}
+
+button.active{
+    background-color: #bbbbbb;
+}
+
+div.active{
+    display: block;}
