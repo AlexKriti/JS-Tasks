@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: darkslateblue;
+    padding: 30px ;
+}
+
+input, button.toFind{
+    padding: 5px ;
+}
+
+button.toFind{
+    background-color: rgb(255, 255, 109);
+}
+
+div.pleer{
+    background-color: chocolate;
+    height: 500px;
+}
+
+iframe{
+    margin: 62px 0 62px 30px;
+}
+
+div.preview{
+    padding: 20px 0 20px 30px;
+    background-color: blanchedalmond;
+}
+
+div.preview img{
+    margin-right: 30px;
+}
