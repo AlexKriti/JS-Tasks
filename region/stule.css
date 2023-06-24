@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #3A3C42;
+}
+
+header li {
+    list-style: none;
+    margin-left: 90px;
+}
+
+ul li a{
+    color: #FFFFFF;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+div.container {
+    width: 89.1%;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/nightbackgroundbig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+div .monsht{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #3A3C42;
+    margin-bottom: 37px;
+    margin-top: 39px;
+}
+
+div .monshtpod{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #3A3C42;
+margin-bottom: 32.49px;
+}
+
+div .interes{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+max-width: 346px;
+color: #3A3C42;
+margin-top: 15.51px;
+margin-bottom: 16.5px;
+}
+
+div.block{
+    display: flex;
+    max-height: 426px;
+    margin-top: 19.5px;
+    margin-bottom: 23px;
+}
+
+div .blockinner{
+    max-width: 760px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+div .hr .line{
+    border: 1px solid #3A3C42;
+    max-width: 1540px;  
+}
+
+div.block{
+    display: flex;
+    max-height: 426px;
+}
+
+div .block_h{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+margin-bottom: 40px;
+color: #3A3C42;
+}
+
+div .blocktext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #3A3C42; 
+}
+
+footer {
+    background: #3A3C42;
+    margin-top: 188px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+footer div.text {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer .m6-5 {
+    margin: 6px 0 5px;
+}
+
+footer .m8 {
+    margin: 8px 0;
+}
+
+footer .m6-15 {
+    margin: 6px 0 15px;
+}
+
+footer .m15 {
+    margin: 15px 0;
+}
+
+footer .m6 {
+    margin: 6px 0;
+}
+
+footer .m6t {
+    margin-top: 6px;
+}
+
+footer div.ul {
+    text-align: left;
+}
+
+div .blockphoto, div .blockinner {
+    max-width: 50%;
+}
+
+div .blockphoto{
+    text-align: right;
+    width: 50%;
+}
+
+@media (max-width: 1732px) {
+    div.block {
+        max-height: none;
+    }
+
+    div .blockinner, div .blockphoto {
+        max-width: none;
+        width: 50%;
+        max-height: none;
+    }
+
+
+
+}
+
+@media (max-width: 1169px) {
+    div .text-ul {
+        margin: 54px 3% 0 4%;
+        
+    }
+
+    footer div.ul-wrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media(max-width: 930px) {
+    .blockphoto{
+        margin-top: 20px;
+    }
+
+    .block{
+        flex-wrap: wrap;
+    }
+
+    div .blockinner, div .blockphoto{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 867px) {
+    header ul{
+        flex-direction: column;
+    }
+}
