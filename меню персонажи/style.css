@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+header li {
+    list-style: none;
+    margin-left: 90px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+div.container {
+    width: 89.1%;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/nightbackgroundbig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+div.nav-li{
+    display: flex;
+    width: 48.7%;
+    justify-content: space-between;
+    margin-right: 4.3%;
+}
+
+main {
+    padding-bottom: 165px;
+}
+
+div.all {
+    background-image: url(images/all.png);
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    background-position: center;
+
+}
+
+main h2 {
+    margin: 88px 0 45px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+div.all h3 {
+    background-image: url(images/backh3.png);
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #3A3C42;
+    padding: 40px 50px;
+    display: inline-block;
+}
+
+div.boyGirl {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 1550px;
+    margin: 0 auto 36px;
+}
+
+div.boyGirl div {
+    width: 49.3%;
+    height: 556px;
+    text-align: left;
+}
+
+div.item1 {
+    background-image: url(images/boy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.item1 p {
+    margin: 26px 0 0 30px;
+}
+
+div.item2 {
+    background-image: url(images/girl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.item2 p {
+    margin: 18px 0 0 23px;
+}
+
+div.location h4 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+div.location div {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 170px;
+}
+
+div.location div.mondstate {
+    background-image: url(images/mondstate.png);
+}
+
+div.location div.liue {
+    background-image: url(images/liue.png);
+}
+
+div.location div.inatzuma {
+    background-image: url(images/inatzuma.png);
+}
+
+div.location div.mondstate h4 {
+    padding: 135px 0 108px;
+}
+
+div.location div.liue h4 {
+    padding: 113px 0 130px;
+}
+
+div.location div.inatzuma h4 {
+    padding: 112px 0 131px;
+}
+
+div.location div.liue {
+    margin: 68px 0 67px;
+}
+
+div.popular {
+    margin-top: 101px;
+}
+
+div.characters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.character{
+    margin-bottom: 49px;
+}
+
+div.popular h3 {
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #3A3C42;
+    text-align: left;
+}
+
+div.popular p {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3A3C42;
+}
+
+div.item1, div.item2 {
+    width: 50%;
+}
+
+footer {
+    background: #3A3C42;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+footer div.text {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer .m6-5 {
+    margin: 6px 0 5px;
+}
+
+footer .m8 {
+    margin: 8px 0;
+}
+
+footer .m6-15 {
+    margin: 6px 0 15px;
+}
+
+footer .m15 {
+    margin: 15px 0;
+}
+
+footer .m6 {
+    margin: 6px 0;
+}
+
+footer .m6t {
+    margin-top: 6px;
+}
+
+footer div.ul {
+    text-align: left;
+}
+
+@media (max-width:1490px) {
+    div.item1, div.item2{
+        background-position: center;
+    }
+}
+
+@media (max-width: 1169px) {
+    div .text-ul {
+        margin: 54px 3% 0 4%;
+        
+    }
+
+    footer div.ul-wrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo-wrapper{
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav ul{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    header li{
+        margin: 0 45px;
+    }
+}
+
+@media (max-width: 866px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    footer div{
+        flex-wrap: wrap;
+    }
+
+    div.boyGirl {
+        flex-wrap: wrap;
+    }
+
+    div.boyGirl div {
+        width: 100%;
+    }
+
+    div.item1{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 545px) {
+    div.character {
+        width: 100%;
+    }
+}
+
+@media (max-width: 467px) {
+    header ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-foot img{
+        max-width: 99%;
+    }
+}
