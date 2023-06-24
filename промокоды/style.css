@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, header, main,footer{
+    width: 100%;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3A3C42;
+    margin: 35px 0 27px;
+}
+
+ul li {
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+    margin-left: 90px;
+}
+
+ul li:first-child{
+    margin-left: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+div.container {
+    width: 89.1%;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/nightbackgroundbig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+div.nav-li{
+    display: flex;
+    width: 48.7%;
+    justify-content: space-between;
+    margin-right: 4.3%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+div.instruction {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+div.instruction p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3A3C42;
+}
+
+ol {
+    text-align: left;
+    position: relative;
+    left: 20px;
+    margin-bottom: 37px;
+}
+
+ol li {
+    margin-bottom: 7px;
+}
+
+img.screenshoot {
+    margin-bottom: 44px;
+}
+
+p.after-pict {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+div.flex-wrap{
+    display: flex;
+}
+
+div.flex-wrap div.info {
+    border-radius: 14px;
+    max-width: 201px;
+    background-image: url(images/starback.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-right: 54px;
+    margin-bottom: 20px
+}
+
+div.flex-wrap div p.promo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+div.flex-wrap div p {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+div.in-info{
+    min-height: 129px;
+    background-color: #365879;
+    border-radius: 14px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background: #3A3C42;
+    padding-bottom: 64px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+footer div.text {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer .m6-5 {
+    margin: 6px 0 5px;
+}
+
+footer .m8 {
+    margin: 8px 0;
+}
+
+footer .m6-15 {
+    margin: 6px 0 15px;
+}
+
+footer .m15 {
+    margin: 15px 0;
+}
+
+footer .m6 {
+    margin: 6px 0;
+}
+
+footer .m6t {
+    margin-top: 6px;
+}
+
+footer div.ul {
+    text-align: left;
+}
+
+@media(max-width:1400px) {
+
+    /* v */
+    .container {
+        max-width: 94%;
+    }
+}
+
+@media(max-width: 1330px){
+    html{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+@media(max-width: 1314px){
+    img.screenshoot{
+        width: 95%;
+    }
+}
+
+@media(max-width:1260px) {
+    /* v */
+    header nav a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo1440.png);
+    }
+
+    /* v */
+    footer,
+    html,
+    header,
+    main,
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1169px) {
+    div .text-ul {
+        margin: 54px 3% 0 4%;
+        
+    }
+
+    footer div.ul-wrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media(max-width:1000px) {
+
+    /* v */
+    div.smallmenu {
+        display: block;
+    }
+
+
+
+    /* v */
+    div.nav-li {
+        display: none;
+    }
+
+    /* v */
+    div.third-footer div section p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo-wrapper{
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav ul{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    header li{
+        margin: 0 45px;
+    }
+}
+
+@media (max-width: 1026px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    footer div{
+        flex-wrap: wrap;
+    }
+
+    div.flex-wrap div.info {
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:480px) {
+
+    /* v */
+    div.third-footer div section p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    /* v */
+    h2.region-heading,
+    h2.events-heading {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+
+@media (max-width: 467px) {
+    header ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-foot img{
+        max-width: 99%;
+    }
+}
+

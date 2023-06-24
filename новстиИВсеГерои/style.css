@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header li {
+    list-style: none;
+    margin-left: 90px;
+}
+
+ul li a{
+    color: #FFFFFF;
+
+}
+
+.allimg {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: inline-block;
+    width: 500px;
+    max-height: 474px;
+    border-radius: 30px;
+    background: rgba(220, 177, 137, 0.56);
+}
+
+.news-p {
+    max-width: 433px;
+}
+
+.img {
+   padding: 11px 16px 0 16px; 
+}
+
+.news-p {
+    padding: 15px 52px 0 16px;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #3A3C42;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.but1 {
+    border-radius: 46px;
+    background: rgba(212, 138, 115, 0.65);
+    width: 362px;
+    height: 66px;
+    margin: 108px 0 53px 0;
+}
+
+.but2 {
+    border-radius: 46px;
+    background: rgba(212, 138, 115, 0.65);
+    width: 362px;
+    height: 66px;
+    margin: 108px 0 53px 0;
+}
+
+.but3 {
+    border-radius: 46px;
+    background: rgba(212, 138, 115, 0.65);
+    width: 362px;
+    height: 66px;
+    margin: 108px 0 53px 0;
+}
+
+.but4 {
+    border-radius: 46px;
+    background: rgba(212, 138, 115, 0.65);
+    width: 362px;
+    height: 66px;
+    margin: 108px 0 53px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+div.container {
+    width: 89.1%;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/nightbackgroundbig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    background: #3A3C42;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+footer div.text {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer .m6-5 {
+    margin: 6px 0 5px;
+}
+
+footer .m8 {
+    margin: 8px 0;
+}
+
+footer .m6-15 {
+    margin: 6px 0 15px;
+}
+
+footer .m15 {
+    margin: 15px 0;
+}
+
+footer .m6 {
+    margin: 6px 0;
+}
+
+footer .m6t {
+    margin-top: 6px;
+}
+
+footer div.ul {
+    text-align: left;
+}
+
+.allivent {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.iventdiv {
+    display: flex;
+    background-image: url("images/nightbackgroundbig.png");
+    max-width: 1540px;
+    height: 229;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    margin-bottom: 15px;
+}
+
+.iventimg{
+    width: 394px;
+    height: 205px;
+    padding: 12px 23px 12px 21px;
+
+}
+
+.iventdiv p{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+.texttitle {
+    align-items: center;
+    margin: 47px 0 31px 0;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+}
+
+.iventdivlast {
+    margin-bottom: 156px;
+}
+
+.news-p1 {
+    max-width: 500px;
+    margin-bottom: 22px;
+}
+
+.all {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.allImgCharacters{
+    width: 500px;
+    height: 940px;
+}
+
+.allDivCharacters p{
+    padding-top: 41px;
+    padding-bottom: 38px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3A3C42;
+}
+
+.characters{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #3A3C42;
+    padding-bottom: 80px;
+    padding-top: 87px;
+}
+
+@media (max-width: 1683px) {
+    .allimg {
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .iventdiv {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1169px) {
+    div .text-ul {
+        margin: 54px 3% 0 4%;
+        
+    }
+
+    footer div.ul-wrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 735px) {
+    .iventdiv {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 770px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    footer div{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 510px) {
+    .block{
+        max-width: 95%;
+    }
+
+    .img{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 450px) {
+    .iventimg{
+        max-width: 99%;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-foot img{
+        max-width: 99%;
+    }
+}
+
+@media (max-width: 460px) {
+    .ul li:first-child {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 368px) {
+    .block{
+        max-height: none;
+    }
+}
