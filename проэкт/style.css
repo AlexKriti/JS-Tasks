@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+
+color: #3A3C42;
+
+}
+
+div.container {
+    width: 89.1%;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/nightbackgroundbig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 87px;
+}
+
+header nav {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    background: #3A3C42;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+footer div.text {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer .m6-5 {
+    margin: 6px 0 5px;
+}
+
+footer .m8 {
+    margin: 8px 0;
+}
+
+footer .m6-15 {
+    margin: 6px 0 15px;
+}
+
+footer .m15 {
+    margin: 15px 0;
+}
+
+footer .m6 {
+    margin: 6px 0;
+}
+
+footer .m6t {
+    margin-top: 6px;
+}
+
+footer div.ul {
+    text-align: left;
+}
+main{
+text-align: left;
+margin-left: 110px;
+margin-right: 110px;
+font-family: 'Raleway';
+}
+/* main img{
+max-width: 1508px;
+margin-right: 110px;
+padding-bottom: 37px;
+padding-top: 45px;
+} */
+.p p{
+padding-top: 23px;
+}
+.h3{
+    padding-top: 48px;
+    padding-bottom: 37px;
+}
+.h{
+    padding-top: 48px;
+}
+.h4{
+    padding-bottom: 45px;
+    padding-top: 17px;
+}
+.p{
+    margin-bottom: 53px;
+}
+.img{
+    padding-right: 9px;
+}
+.a{
+text-decoration: none;
+color: #3A3C42;
+}
+.h5{
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 190px;
+    text-decoration: none;
+color: #3A3C42;
+}
+.imm{
+    padding-left: 9px;
+    transform: rotate(180deg);
+}
+.f0{
+    padding-top: 37px;
+}
+a{
+    text-decoration: none;
+}
+header a li{
+    color: #FFFFFF;
+}
+
+@media(max-width: 1730px){
+    .photo{
+        width: 95%;
+    }
+}
+
+@media (max-width: 1169px) {
+    div .text-ul {
+        margin: 54px 3% 0 4%;
+        
+    }
+
+    footer div.ul-wrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo-wrapper{
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav ul{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    header li{
+        margin: 0 45px;
+    }
+}
+
+@media (max-width: 1026px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 750px) {
+    main{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size:large;
+    }
+}
+
+@media (max-width: 650px) {
+    footer div{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 467px) {
+    header ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-foot img{
+        max-width: 99%;
+    }
+}
